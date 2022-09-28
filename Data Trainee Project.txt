@@ -1,0 +1,27 @@
+
+According to the World Health Organization, ischaemic heart disease and stroke are the world’s biggest killers.
+What we need to do is to do transformation on the given information of patients and update the data in MySQL table. 
+
+Tech Stack:
+1. Apache Kafka
+2. Apache Spark 
+3. MySQL database
+
+
+PySpark Transformations :
+1. What type of work has more cases of stroke.
+
+2. Who participated in this clinic measurement.How many Female/Male have a stroke.
+
+3. Dataset has missing values for smoking_status and bmi parameters,fill out smoking_status with a value of ‘No info’
+   and bmi parameter with mean value.
+
+4. Calculate the number of stroke cases for people for age between 40-50 yrs,50-60 yrs, 60-70 yrs and above 70 yrs.
+
+5. Move data to Kafka topic .
+
+6. Load the data into MySQL database from Kafka for the different age groups:
+   1. Load data for age between 40-50 yrs.
+   2. Load data for age between 50-60 yrs.
+   3. Load data for age between 60-70 yrs.
+   4. Load data for age above 70 yrs.
